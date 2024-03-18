@@ -27,5 +27,6 @@ let package = Package(
         .testTarget(
             name: "upnetix-bindable-podTests",
             dependencies: ["upnetix-bindable-pod"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
